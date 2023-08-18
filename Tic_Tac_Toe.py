@@ -91,11 +91,11 @@ while True :
     tie = tie_function()
     
     if win :
-        print(f'The Winner is {player}')
+        print(f'\nThe Winner is {player}')
         pr_func()
         break
     elif tie :
-         print('unfortionatily it is tie situation!') 
+         print('\nunfortionatily it is tie situation!') 
          pr_func()
          break
     else:
